@@ -125,7 +125,6 @@ func GetRuRegions() (*RegionsStat, error) {
 
 /*
 SearchRegion поиск по буквенному коду региона России (ISO 3166-2)
-Полный список поддержываемух регионов можно
 Пример: поиск региона Москва(SearchRegion([]RegionsStat, "MOW"))
 */
 func (rs *RegionsStat) SearchRuRegion(region string) (*RegionStat, error) {
